@@ -7,7 +7,7 @@ A minimalist [lasso](https://github.com/lasso-js/lasso) plugin that minifes and 
 
 ## Usage
 
-```json
+```javascript
 {
   type: minify-transpile-inline,
   inline: true,
@@ -20,7 +20,7 @@ A minimalist [lasso](https://github.com/lasso-js/lasso) plugin that minifes and 
 This is different from :
 
 
-```json
+```javascript
 {
   inline: true,
   run: true,
