@@ -11,7 +11,7 @@ A minimalist [lasso](https://github.com/lasso-js/lasso) plugin that minifes and 
 {
   type: minify-transpile-inline,
   inline: true,
-  path: './path/to/my/jsfile.js,
+  path: './path/to/my/jsfile.js',
   slot: 'mySlot'
 }
 ```
@@ -25,7 +25,7 @@ This is different from :
   inline: true,
   run: true,
   type: require,
-  path: './path/to/my/jsfile.js,
+  path: './path/to/my/jsfile.js',
   slot: 'mySlot'
 }
 ```
