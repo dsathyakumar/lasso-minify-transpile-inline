@@ -1,0 +1,25 @@
+{
+    "name": "lasso-minify-transpile-inline",
+    "description": "Custom JS Dependency for Lasso.js to minify & transpile Inline JavaScript using Babel",
+    "keywords": [
+        "lasso",
+        "lasso-plugin",
+        "js",
+        "minify",
+        "transpile"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dsathyakumar/lasso-minify-transpile-inline.git"
+    },
+    "dependencies": {
+        "babel-core": "^6"
+    },
+    "license": "Apache License v2.0",
+    "bin": {},
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "main": "lasso-minify-transpile-inline-plugin.js",
+    "version": "0.0.0"
+}
