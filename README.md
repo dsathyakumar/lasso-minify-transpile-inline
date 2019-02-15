@@ -3,7 +3,7 @@
 A minimalist [lasso](https://github.com/lasso-js/lasso) plugin that minifes and transpiles inline source files, that do not have to be wrapped by `$_mod` - the [lasso client side runtime](https://github.com/lasso-js/lasso-modules-client)
 
 ## What it does?
-- `transpiles` & `minifes` inline source files via `babel-core` & places them in a specific slot.
+- `transpiles` & `minifes` inline source files via `babel-core` & places them in the specified slot.
 
 ## Usage
 
