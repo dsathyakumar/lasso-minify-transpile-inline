@@ -12,7 +12,8 @@ const DEPENDENCY_PROPS = {
     // Declare which properties can be passed to the dependency type
     properties: {
         'path': 'string',
-        'inline': true
+        'inline': true,
+        'type': 'string'
     },
 
     // Validation checks and initialization based on properties:
