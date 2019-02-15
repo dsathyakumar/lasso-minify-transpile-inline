@@ -18,8 +18,16 @@ const DEPENDENCY_PROPS = {
 
     // Validation checks and initialization based on properties:
     async init(/* context */) {
-        if (!this.path || !this.inline || !this.type || this.type !== DEPENDENCY_TYPE) {
-            throw new Error('"path" is required');
+        if (!this.path) {
+            throw new Error('"path" property is required');
+        }
+
+        if (!this.inline) {
+            throw new Error('"inline" property is required');
+        }
+
+        if (!this.type || this.type !== DEPENDENCY_TYPE) {
+            throw new Error('"type" property is required');
         }
 
         // NOTE: resolvePath can be used to resolve a provided relative path to a full path
