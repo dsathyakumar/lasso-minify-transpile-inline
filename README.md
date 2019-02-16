@@ -50,3 +50,6 @@ Marking as `type: require` will cause the file to be wrapped by the [lasso-modul
     }
 
 ```
+
+### Babel config
+This will pick the parent project's Babel configuration.
