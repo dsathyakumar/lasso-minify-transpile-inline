@@ -40,7 +40,7 @@ const DEPENDENCY_PROPS = {
         if (src) {
             // filename is needed here until we bump to @babel/babel-core ^7
             src = babel.transform(src, {
-                minified: true,
+                presets: ["babel-preset-minify"].map(require.resolve),
                 comments: false,
                 filename: this.path.substr(this.path.lastIndexOf('/') + 1)
             });
@@ -50,7 +50,7 @@ const DEPENDENCY_PROPS = {
 
     // getSourceFile is optional and is only used to determine the last modified time
     // stamp and to give the output file a reasonable name when bundling is disabled
-    getSourceFile: function() {
+    getSourceFile: function () {
         return this.path;
     }
 };
